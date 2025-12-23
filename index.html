@@ -1,69 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Return to App</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: #121212;
-      color: #e0e0e0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      text-align: center;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    .icon {
-      font-size: 64px;
-      margin-bottom: 30px;
-      opacity: 0.8;
-    }
-
-    h1 {
-      font-size: 28px;
-      margin: 0 0 16px 0;
-      font-weight: 600;
-    }
-
-    p {
-      font-size: 18px;
-      opacity: 0.9;
-      max-width: 300px;
-      line-height: 1.5;
-    }
-
-    .back-btn {
-      margin-top: 40px;
-      padding: 12px 28px;
-      background-color: #1f8fff;
-      color: white;
-      border: none;
-      border-radius: 12px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    .back-btn:hover {
-      background-color: #1a7ae6;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGS Animations and SVGs</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/tgs-player.js"></script>
+    <style>
+        body { 
+            background-color: #101010; 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 20px; 
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto; 
+        }
+        .item { 
+            background-color: #141414; 
+            border: 1px solid #1a1a1a; 
+            border-radius: 30px; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            text-align: center; 
+        }
+        .item h2 { 
+            margin-bottom: 10px; 
+        }
+        tgs-player, img { 
+            width: 200px; 
+            height: 200px; 
+            display: block; 
+            margin: 0 auto 20px; 
+        }
+    </style>
 </head>
 <body>
-  <div class="icon">📱</div>
-  <h1>Please Return to the App</h1>
-  <p>This content is only available inside the app for the best experience.</p>
+    <div class="container">
 
-  <button class="back-btn" onclick="window.history.back()">
-    Go Back
-  </button>
+        <div class="item">
+            <h2>ArtisanBrick</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/ArtisanBrick.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/ArtisanBrick.svg" alt="ArtisanBrick SVG">
+        </div>
+    
+        <div class="item">
+            <h2>AstralShard</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/AstralShard.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/AstralShard.svg" alt="AstralShard SVG">
+        </div>
+    
+        <div class="item">
+            <h2>BDayCandle</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/BDayCandle.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/BDayCandle.svg" alt="BDayCandle SVG">
+        </div>
+    
+        <div class="item">
+            <h2>BerryBox</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/BerryBox.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/BerryBox.svg" alt="BerryBox SVG">
+        </div>
+    
+        <div class="item">
+            <h2>BigYear</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/BigYear.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/BigYear.svg" alt="BigYear SVG">
+        </div>
+    
+        <div class="item">
+            <h2>BlingBinky</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/BlingBinky.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/BlingBinky.svg" alt="BlingBinky SVG">
+        </div>
+    
+        <div class="item">
+            <h2>BondedRing</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/BondedRing.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/BondedRing.svg" alt="BondedRing SVG">
+        </div>
+    
+        <div class="item">
+            <h2>CookieHeart</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/CookieHeart.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/CookieHeart.svg" alt="CookieHeart SVG">
+        </div>
+    
+        <div class="item">
+            <h2>CrystalBall</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/CrystalBall.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/CrystalBall.svg" alt="CrystalBall SVG">
+        </div>
+    
+        <div class="item">
+            <h2>DeskCalendar</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/DeskCalendar.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/DeskCalendar.svg" alt="DeskCalendar SVG">
+        </div>
+    
+        <div class="item">
+            <h2>EasterEgg</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/EasterEgg.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/EasterEgg.svg" alt="EasterEgg SVG">
+        </div>
+    
+        <div class="item">
+            <h2>EternalCandle</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/EternalCandle.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/EternalCandle.svg" alt="EternalCandle SVG">
+        </div>
+    
+        <div class="item">
+            <h2>EvilEye</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/EvilEye.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/EvilEye.svg" alt="EvilEye SVG">
+        </div>
+    
+        <div class="item">
+            <h2>FaithAmulet</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/FaithAmulet.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/FaithAmulet.svg" alt="FaithAmulet SVG">
+        </div>
+    
+        <div class="item">
+            <h2>FlyingBroom</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/FlyingBroom.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/FlyingBroom.svg" alt="FlyingBroom SVG">
+        </div>
+    
+        <div class="item">
+            <h2>GenieLamp</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/GenieLamp.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/GenieLamp.svg" alt="GenieLamp SVG">
+        </div>
+    
+        <div class="item">
+            <h2>GingerCookie</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/GingerCookie.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/GingerCookie.svg" alt="GingerCookie SVG">
+        </div>
+    
+        <div class="item">
+            <h2>HappyBrownie</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/HappyBrownie.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/HappyBrownie.svg" alt="HappyBrownie SVG">
+        </div>
+    
+        <div class="item">
+            <h2>HeroicHelmet</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/HeroicHelmet.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/HeroicHelmet.svg" alt="HeroicHelmet SVG">
+        </div>
+    
+        <div class="item">
+            <h2>HexPot</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/HexPot.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/HexPot.svg" alt="HexPot SVG">
+        </div>
+    
+        <div class="item">
+            <h2>HolidayDrink</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/HolidayDrink.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/HolidayDrink.svg" alt="HolidayDrink SVG">
+        </div>
+    
+        <div class="item">
+            <h2>HomemadeCake</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/HomemadeCake.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/HomemadeCake.svg" alt="HomemadeCake SVG">
+        </div>
+    
+        <div class="item">
+            <h2>IceCream</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/IceCream.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/IceCream.svg" alt="IceCream SVG">
+        </div>
+    
+        <div class="item">
+            <h2>InstantRamen</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/InstantRamen.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/InstantRamen.svg" alt="InstantRamen SVG">
+        </div>
+    
+        <div class="item">
+            <h2>JesterHat</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/JesterHat.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/JesterHat.svg" alt="JesterHat SVG">
+        </div>
+    
+        <div class="item">
+            <h2>JingleBells</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/JingleBells.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/JingleBells.svg" alt="JingleBells SVG">
+        </div>
+    
+        <div class="item">
+            <h2>KhabibsPapakha</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/KhabibsPapakha.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/KhabibsPapakha.svg" alt="KhabibsPapakha SVG">
+        </div>
+    
+        <div class="item">
+            <h2>KissedFrog</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/KissedFrog.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/KissedFrog.svg" alt="KissedFrog SVG">
+        </div>
+    
+        <div class="item">
+            <h2>LightSword</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/LightSword.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/LightSword.svg" alt="LightSword SVG">
+        </div>
+    
+        <div class="item">
+            <h2>LolPop</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/LolPop.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/LolPop.svg" alt="LolPop SVG">
+        </div>
+    
+        <div class="item">
+            <h2>LovePotion</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/LovePotion.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/LovePotion.svg" alt="LovePotion SVG">
+        </div>
+    
+        <div class="item">
+            <h2>MadPumpkin</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/MadPumpkin.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/MadPumpkin.svg" alt="MadPumpkin SVG">
+        </div>
+    
+        <div class="item">
+            <h2>MagicPotion</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/MagicPotion.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/MagicPotion.svg" alt="MagicPotion SVG">
+        </div>
+    
+        <div class="item">
+            <h2>MightyArm</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/MightyArm.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/MightyArm.svg" alt="MightyArm SVG">
+        </div>
+    
+        <div class="item">
+            <h2>MoneyPot</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/MoneyPot.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/MoneyPot.svg" alt="MoneyPot SVG">
+        </div>
+    
+        <div class="item">
+            <h2>NailBracelet</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/NailBracelet.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/NailBracelet.svg" alt="NailBracelet SVG">
+        </div>
+    
+        <div class="item">
+            <h2>NekoHelmet</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/NekoHelmet.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/NekoHelmet.svg" alt="NekoHelmet SVG">
+        </div>
+    
+        <div class="item">
+            <h2>PartySparkler</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/PartySparkler.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/PartySparkler.svg" alt="PartySparkler SVG">
+        </div>
+    
+        <div class="item">
+            <h2>PerfumeBottle</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/PerfumeBottle.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/PerfumeBottle.svg" alt="PerfumeBottle SVG">
+        </div>
+    
+        <div class="item">
+            <h2>PetSnake</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/PetSnake.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/PetSnake.svg" alt="PetSnake SVG">
+        </div>
+    
+        <div class="item">
+            <h2>PreciousPeach</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/PreciousPeach.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/PreciousPeach.svg" alt="PreciousPeach SVG">
+        </div>
+    
+        <div class="item">
+            <h2>RecordPlayer</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/RecordPlayer.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/RecordPlayer.svg" alt="RecordPlayer SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SakuraFlower</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SakuraFlower.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SakuraFlower.svg" alt="SakuraFlower SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SantaHat</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SantaHat.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SantaHat.svg" alt="SantaHat SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SharpTongue</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SharpTongue.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SharpTongue.svg" alt="SharpTongue SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SnakeBox</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SnakeBox.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SnakeBox.svg" alt="SnakeBox SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SnoopCigar</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SnoopCigar.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SnoopCigar.svg" alt="SnoopCigar SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SnowGlobe</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SnowGlobe.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SnowGlobe.svg" alt="SnowGlobe SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SnowMittens</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SnowMittens.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SnowMittens.svg" alt="SnowMittens SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SpicedWine</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SpicedWine.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SpicedWine.svg" alt="SpicedWine SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SpringBasket</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SpringBasket.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SpringBasket.svg" alt="SpringBasket SVG">
+        </div>
+    
+        <div class="item">
+            <h2>StarNotepad</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/StarNotepad.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/StarNotepad.svg" alt="StarNotepad SVG">
+        </div>
+    
+        <div class="item">
+            <h2>SwissWatch</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/SwissWatch.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/SwissWatch.svg" alt="SwissWatch SVG">
+        </div>
+    
+        <div class="item">
+            <h2>ToyBear</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/ToyBear.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/ToyBear.svg" alt="ToyBear SVG">
+        </div>
+    
+        <div class="item">
+            <h2>ValentineBox</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/ValentineBox.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/ValentineBox.svg" alt="ValentineBox SVG">
+        </div>
+    
+        <div class="item">
+            <h2>VintageCigar</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/VintageCigar.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/VintageCigar.svg" alt="VintageCigar SVG">
+        </div>
+    
+        <div class="item">
+            <h2>WestsideSign</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/WestsideSign.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/WestsideSign.svg" alt="WestsideSign SVG">
+        </div>
+    
+        <div class="item">
+            <h2>WinterWreath</h2>
+            <tgs-player autoplay loop mode="normal" src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/tgs/WinterWreath.tgs"></tgs-player>
+            <img src="https://raw.githubusercontent.com/mr-x7x/tgs-telegram-animation/refs/heads/main/gifts/svg/WinterWreath.svg" alt="WinterWreath SVG">
+        </div>
+    
+    </div>
 </body>
 </html>
